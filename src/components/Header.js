@@ -22,8 +22,9 @@ const Header = () => {
             </Link>
 
           <div>
-            <h1 >Contact us!</h1>
-            <p>615-476-9950</p>
+            <p className='text-lg pr-8 pt-4'>615-476-9950</p>
+            <p className='text-lg pr-8'>GavinOniel@email.com</p>
+
             </div>    
       </nav>
     </header>

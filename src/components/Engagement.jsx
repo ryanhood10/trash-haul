@@ -87,9 +87,7 @@ const DumpsterRentalCompany = () => {
                             <li className="flex items-center">
                                 <span className="mr-2">Dedicated Customer Support</span>
                             </li>
-                            <li className="flex items-center">
-                                <span className="mr-2">Environmentally Friendly Practices</span>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -98,11 +96,13 @@ const DumpsterRentalCompany = () => {
                     <div className="flex items-center justify-center h-full">
                         <img className="w-full rounded-3xl" src={NashMap} alt="Dumpster" />
                     </div>
-                    </div>
+                    <p className="text-center md:text-xl sm:text-xl text-xl justify-center  font-semibold"> See about dumpster container rentals in the greater Nashville area
+                    </p>
+                </div>
 
             </div>
 
-            <div className="max-w-[1240px] mx-auto py-16 px-4">
+            <div className="max-w-[1240px] mx-auto pt-24 px-8">
                 <p className="text-center text-2xl font-semibold pb-6">Why Choose Nashville Dumpster Rentals</p>
                 <div className="flex flex-col justify-center text-lg">
                     <p className="text-lg font-bold">At Nashville Dumpster Rentals, we take pride in our commitment to serving construction sites with reliable and efficient dumpster rental solutions. Here's why you should choose us:</p>
@@ -112,8 +112,6 @@ const DumpsterRentalCompany = () => {
                         <li className="mb-2">Flexible Rental Options to Suit Your Schedule</li>
                         <li className="mb-2">Timely Delivery and Pickup Services</li>
                         <li className="mb-2">Competitive and Transparent Pricing</li>
-                        <li className="mb-2">Dedicated Customer Support Team</li>
-                        <li className="mb-2">Environmentally Conscious Practices</li>
                     </ul>
                 </div>
             </div>
