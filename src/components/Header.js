@@ -23,7 +23,7 @@ const Header = () => {
 
           <div>
             <p className='text-lg pr-8 pt-4'>615-476-9950</p>
-            <p className='text-lg pr-8'>GavinOniel@email.com</p>
+            <p className='text-lg pr-8'>GavinOneil@email.com</p>
 
             </div>    
       </nav>

@@ -45,7 +45,7 @@ const OtherHero = () => {
                             <StarIcon className="h-5 text-yellow-400"></StarIcon>
                             <StarIcon className="h-5 text-yellow-400"></StarIcon>
                         </div>
-                        <p className="flex justify-end pr-4 h-5 font-bold text-white">5 Star Yard Bin Rentals</p>
+                        <p className="flex justify-end pr-4 h-5 font-bold text-white">5-Star Yard Bin Rentals</p>
                     </div>
                     <img className='w-full h-[250px] object-fit' src={RealEstateBanner} alt="robot1" />
                 </div>

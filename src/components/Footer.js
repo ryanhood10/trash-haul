@@ -43,7 +43,7 @@ function Footer() {
       <div>
       <h2 className='text-2xl'>Gavin O'Neil</h2>
             <p className='text-lg py-4'>615.377.9779</p>
-            <p className='text-lg'>GavinOniel@email.com</p>
+            <p className='text-lg'>GavinOneil@email.com</p>
 
       </div>
 
