@@ -6,6 +6,7 @@ import Engagement from './components/Engagement';
 import Contact from './components/Contact';
 // import HeadlineCards from './compenents/HeadlineCards';
 import OtherHero from './components/OtherHero';
+import Hero from './components/Hero';
 import './index.css';
 
 
@@ -29,27 +30,11 @@ function App() {
           <Route
             path="/"
             element={<React.Fragment>
-              <OtherHero />
+              <Hero />
         <Engagement />
         <Contact />
             </React.Fragment>
             }
-          />
-          
-          <Route
-            path="/solutions"
-            element={<React.Fragment>
-              <OtherHero />
-              <Contact />
-
-            </React.Fragment>}
-          />
-          <Route
-            path="/contact"
-            element={<React.Fragment>
-              <OtherHero />
-              <Contact />
-            </React.Fragment>}
           />
           
         </Routes>

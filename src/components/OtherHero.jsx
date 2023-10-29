@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import RealEstateBanner from './assets/pictures/RealEstateBanner2.png';
+import RealEstateBanner from './assets/pictures/trashHaulHeader.png';
 
 const OtherHero = () => {
     const divRef = useRef(null);
@@ -36,7 +36,7 @@ const OtherHero = () => {
                     <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:7xl font-bold text-blue-700' >Your<span className='text-white'> Trusted Partner</span></h1>
                     <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:7xl font-bold text-blue-700' >in <span className='text-white'> Commercial Real Estate</span></h1>
                 </div>
-                <img className='w-full max-h-[250px] object-cover' src={RealEstateBanner}  alt="robot1" />
+                <img className='w-full h-[250px] object-contain' src={RealEstateBanner} alt="robot1" />
             </div>
         </div>
     )
