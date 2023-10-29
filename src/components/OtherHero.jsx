@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import RealEstateBanner from './assets/pictures/trashHaulHeader.png';
+import RealEstateBanner from './assets/pictures/trashHaulFooter.png';
 
 const OtherHero = () => {
     const divRef = useRef(null);
@@ -32,12 +32,18 @@ const OtherHero = () => {
         <div className={`w-full mx-auto p-4 ${animationClasses(isVisible)}`} ref={divRef}>
             <div className='max-h-[500px] relative'>
                 {/* overlay */}
-                <div className='absolute w-full h-full text-gray-200 max-h-[250px] bg-black/20 flex flex-col justify-center z-0'>
-                    <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:7xl font-bold text-blue-700' >Your<span className='text-white'> Trusted Partner</span></h1>
-                    <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:7xl font-bold text-blue-700' >in <span className='text-white'> Commercial Real Estate</span></h1>
+                <div className='absolute w-full h-full text-gray-200 max-h-[250px] bg-black/40 flex flex-col justify-center z-0'>
+
+
+                <p className="text-center text-2xl font-semibold pb-6">Get in Touch</p>
+                    <p className="text-lg font-bold">Ready to rent a dumpster for your construction site or have questions about our services?</p>
+                    <p className="mt-6 font-bold">Contact us today to discuss your requirements, get a quote, or schedule a rental. Our team is here to assist you!</p>
                 </div>
                 <img className='w-full h-[250px] object-contain' src={RealEstateBanner} alt="robot1" />
+                
             </div>
+            
+            
         </div>
     )
 }

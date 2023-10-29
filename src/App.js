@@ -32,7 +32,7 @@ function App() {
             element={<React.Fragment>
               <Hero />
         <Engagement />
-        <Contact />
+        <OtherHero />
             </React.Fragment>
             }
           />
