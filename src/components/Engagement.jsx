@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import DumpsterImage from "./assets/pictures/trashDumpster.png";
+import NashMap from './assets/pictures/NashMap1.png';
 import { useNavigate } from 'react-router-dom';
 
 const DumpsterRentalCompany = () => {
@@ -94,8 +95,11 @@ const DumpsterRentalCompany = () => {
                 </div>
 
                 <div className={`animation-container ${animationClasses(isVisible)}`}>
-                    <img className="w-full" src={DumpsterImage} alt="Dumpster" />
-                </div>
+                    <div className="flex items-center justify-center h-full">
+                        <img className="w-full rounded-3xl" src={NashMap} alt="Dumpster" />
+                    </div>
+                    </div>
+
             </div>
 
             <div className="max-w-[1240px] mx-auto py-16 px-4">
