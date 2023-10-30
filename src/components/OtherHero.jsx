@@ -35,9 +35,9 @@ const OtherHero = () => {
                 <div className='max-h-[500px] relative'>
                     {/* overlay */}
                     <div className='absolute w-full h-full rounded-3xl text-gray-200 max-h-[250px] bg-black/40 flex flex-col justify-center z-0'>
-                        <h3 className="text-2xl text-start font-semibold pb-6 pl-4">Get in Touch</h3>
-                        <p className="text-lg font-bold pl-4">Ready to rent a dumpster for your construction site or have questions about our services?</p>
-                        <p className="mt-6 text-lg font-bold pl-4">Contact us today to discuss your requirements, get a quote, or schedule a rental. Our team is here to assist you!</p>
+                        <h3 className="text-lg md:text-2xl text-start font-semibold pb-6 pl-4">Get in Touch</h3>
+                        <p className="text-sm md:text-lg font-bold pl-4">Ready to rent a dumpster for your construction site or have questions about our services?</p>
+                        <p className="text-sm md:text-lg mt-6 font-bold pl-4">Contact us today to discuss your requirements, get a quote, or schedule a rental. Our team is here to assist you!</p>
                         <div className='flex justify-end pr-4'>
                             <StarIcon className="h-5 text-yellow-400"></StarIcon>
                             <StarIcon className="h-5 text-yellow-400"></StarIcon>
